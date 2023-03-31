@@ -24,7 +24,7 @@ App will then be submitted for review.
 ### Requirements
 - Android sdk
 
-The steps listed here (Publishing To the Play Store)[https://reactnative.dev/docs/signed-apk-android] to generate a Keystore file that will be used to generate an android bundle using the `./gradlew bundleRelease` (.aab file)
+The steps listed here [Publishing To the Play Store](https://reactnative.dev/docs/signed-apk-android) to generate a Keystore file that will be used to generate an android bundle using the `./gradlew bundleRelease` (.aab file)
 
 This keystore file also must be used to generate SHA keys that will be uploaded to the store.
 
