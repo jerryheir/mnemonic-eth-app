@@ -31,3 +31,6 @@ This keystore file also must be used to generate SHA keys that will be uploaded 
 ## EXTRA
 
 One particular process I keep forgetting is how to get a App Store distribution certificate and Provisioning Profile even though I have done it multiple times
+
+## NOTES
+API KEYS and SECRETS should be managed by using a .env file / react-native-dotenv module. There are also other ways to manage them including using aws secret manager etc. It all depends on the situation
