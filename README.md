@@ -3,6 +3,11 @@
 Explain the process of publishing the app to the Play Store and Apple App Store, and
 share any personal experience or anecdotal evidence you have.
 
+I have been working with react-native for about 5 years now. 
+I have deployed apps like MTN D2R app, WorkRaven, uLesson, Remedy Portal, Affixdot and more.
+
+The process of publishing to the stores have changed with time especially on the Android part.
+
 ## iOS
 ### Requirements 
 - Apple Development Account
@@ -22,3 +27,7 @@ App will then be submitted for review.
 The steps listed here (Publishing To the Play Store)[https://reactnative.dev/docs/signed-apk-android] to generate a Keystore file that will be used to generate an android bundle using the `./gradlew bundleRelease` (.aab file)
 
 This keystore file also must be used to generate SHA keys that will be uploaded to the store.
+
+## EXTRA
+
+One particular process I keep forgetting is how to get a App Store distribution certificate and Provisioning Profile even though I have done it multiple times
